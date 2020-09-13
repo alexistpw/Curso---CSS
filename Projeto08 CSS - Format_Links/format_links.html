@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Elementos Inline, Block, Inline-Block</title>
+		<meta charset="utf-8">
+		<style type="text/css">
+
+			a
+			{
+				padding: 5px 10px;
+				text-decoration: none;
+			}
+
+			/*a:link, a:visited -> Configuração comum para ambos os estados
+			{
+				color: #b9c941;
+			}*/
+			
+			/*Links têm 2 estados: clicados e não clicados;*/
+			a:link /*estado padrão de link, nao clicado ou não visitado;*/
+			{
+				color: #b9c941;
+			}
+
+			a:visited  /*clicados ou visitados;*/
+			{
+				color: #c0c0c0;
+			}
+
+			a:hover /*Estado do link ao passar o mouse por cima*/
+			{
+				color: #FFF;
+				background: #6d790f;
+			}
+
+			a:active /*Estado ao pressionar o link*/
+			{
+				color: #e4f371;
+			}
+
+		</style>
+	</head>
+	<body>
+
+		<a href="https://www.google.com.br/">Google</a> |
+		<a href="https://www.tecmundo.com.br/">Tecmundo</a> |
+		<a href="https://www.megacurioso.com.br/">Megacurioso</a> |
+		<a href="https://www.9gag.com/">X_Y_Z_W</a>
+
+	</body>
+</html>

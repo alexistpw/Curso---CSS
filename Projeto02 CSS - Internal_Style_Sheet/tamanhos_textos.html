@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tamanhos e Textos</title>
+		<meta charset="utf-8">
+
+		<style type="text/css">
+
+			body
+			{
+				font-size: 16px; /*16px - tamanho padrão de texto*/
+			}
+
+			div
+			{
+				font-size: 32px;
+			}
+
+			.format1
+			{
+				font-size: 1em;  /*tamanho 1x Tamanho do Conteiner Pai*/
+			}
+			.format2
+			{
+				font-size: 2em;  /*tamanho 2x Tamanho do Conteiner Pai*/
+			}
+			.format3
+			{
+				font-size: 0.5em;  /*tamanho 2x Tamanho do Conteiner Pai*/
+			}
+			
+		</style>
+	</head>
+
+	<body> <!-- Conteiner Pai de <div> -->
+
+		<div> <!-- Conteiner filho de <body> e pai de <p> -->
+			<p class="format1">Conteúdo</p> <!-- Conteiner filho de <div> -->
+			<p class="format2">Conteúdo 2!</p>
+			<p class="format3">Conteúdo 3!</p>
+		</div>
+		
+	</body>
+</html>

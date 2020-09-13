@@ -1,0 +1,152 @@
+*  /*Limpando formatação "*" aponta para tudo*/
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	font-size: 1em;
+	font-family: "trebuchet MS", Helvetca, sans-serif;
+	background: #e6e6e6;
+}
+
+p
+{
+	padding: 5px 0;
+}
+
+h1
+{
+	color: #4e4e4e;
+	font-size: 2.5em;
+}
+
+h2
+{
+	color: #f7b600;
+}
+
+h3
+{
+	color: #565656;
+	background: #CCC;
+	padding: 5px;
+}
+
+/***********MENU**************/
+
+ a:link, a:visited  /*Seletor: a:link com config. que sose aplica a esta id*/
+{
+	color: #f7b600;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+
+ #cabeçalho a:link, #cabeçalho a:visited  /*Seletor: a:link com config. que sose aplica a esta id*/
+{
+	color: #FFF;
+	padding: 8px 12px;
+}
+
+#cabeçalho a:hover
+{
+	color: #f7b600;
+	background: #FFF;
+	text-decoration: none;
+}
+
+
+
+/***********Layout**************/
+
+#cabeçalho
+{
+	background: #f7b600;
+	padding: 15px;
+	text-align: center;
+	/*border: 1px solid red;*/
+}
+
+#logo, #menu
+{
+	padding: 10px;
+}
+
+.white
+{
+	color: white;
+}
+
+#principal
+{
+	
+	width: 920px;
+	margin:0px auto;
+	padding: 15px
+}
+
+#postagens
+{
+	
+	width: 660px;
+	float: left;
+	background: #e6e6e6;
+}
+
+#lateral
+{
+	width: 240px;
+	float: right;
+	/*background: orange;*/
+}
+
+#rodape
+{
+	clear: both;
+	background: #CCC;
+	text-align: center;
+	padding: 15px 15px;
+
+}
+
+.post
+{
+	padding: 20px;
+	margin-bottom: 20px;
+	background: white;
+}
+
+.data
+{
+	font-size: 0.8em;
+	border-bottom: 3px solid #f4f4f4;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	display: block;
+	/*border: 1px solid red;*/
+}
+
+.ltrl_conteudo
+{
+	background: white;
+	padding: 10px;
+	margin-bottom: 20px;
+
+}
+
+.ltrl_post
+{
+	font-size: 0.8em;
+	padding: 5px;
+	/*border-bottom: 1px solid #CCC;*/
+}

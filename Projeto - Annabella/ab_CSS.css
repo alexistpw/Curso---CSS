@@ -1,0 +1,55 @@
+body
+{
+	background-color: #ccc8bc;
+	/*background-image: url('Imagens/fundo.png')*/
+}
+
+h2
+{
+	color: #a3a093;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+a
+{
+	color: #505966;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 5px;
+}
+
+#ab_pic
+{
+	background-image: url('Imagens/capa.png')
+}
+
+#menu
+{
+	color: #505966;
+	font-size: 20px;
+	background: #a3a093;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 869px;
+	padding: 15px;
+}
+
+.corp
+{
+	background-color: #f2f1df;
+	width: 859px;
+	padding: 20px;
+}
+
+.borders
+{
+	border-color: #a3a093; 
+	border-width: 5px;
+	border-style:  solid;
+}
+
+.rodape
+{
+	text-align: center;
+	font-weight: bold;
+	padding: 10px;
+}

@@ -1,0 +1,21 @@
+/*Modelo Caixa*/
+
+.cont
+{
+	border: 1px solid red;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	width: 150px;		/*Comprimento da caixa = 'width' + 'padding' = 170px*/
+}
+
+.cont2
+{
+	border: 1px solid red;
+	padding: 20px 15px 10px 5px;
+	width: 150px;
+
+	margin-top: 20px;	/*comando marging executado em duas caixas vizinhas gera a sobreposição*/
+	margin-bottom: 20px; /*das margens configuradas, não ficando 40px, mas sim 20px*/
+}

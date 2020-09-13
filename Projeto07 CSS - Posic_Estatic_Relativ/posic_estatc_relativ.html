@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Posicionamentos</title> <!-- static / relative/ absolute / fixed -->
+		<meta charset="utf-8">
+		<style type="text/css">
+
+			body
+			{
+				background: #007fc7;
+			}
+
+			h1
+			{
+				position: static;
+			}
+			
+			p
+			{
+				position: static;
+				width: 300px;
+			}
+
+			.relative
+			{
+				border: 1px solid red;
+				/*x*/position: relative; /*top / botton / right / left*/
+				/*x*/top: 20px;
+				/*x*/left: -80px; /*desloca o bloco Kpx pixels para o lado oposto*/
+			}
+
+			.absolute /*retira o bloco do fluxo e fixa num ponto de uma estrutura superior de posição relativa.*/
+			{
+				background: #f2f2f2;
+				border: 1px solid red;
+				position: absolute; 
+				top: 0px; /*Leva o block para a posição 0 (zero) do topo da estrutura relativa superior.
+							No caso, <div id="container">. Se o <div> tiver configuração "position: relative;"
+							o bloco com a config. "position: absolute" se alinha com o topo do <div>. Se não,
+							o bloco se alinha com a tela do navegador, ou com o container com "position: relative"
+							superior (<body>).*/
+				right: 20px; /*Leva o block para a posição 2px da borda direita*/
+			}
+
+			.fixed
+			{
+				border: 1px solid red;
+				background: #f2f2f2;
+				position: fixed; /*Fixa o bloco num ponto específico da tela, rolando junto com a tela.*/
+				top: 0px;
+				left: 0px;
+			}
+
+
+			#container
+			{
+				background: #FFF;
+				border: 1px solid red;
+				width: 800px;
+				margin: 10px auto;
+				padding: 5px;
+				/*position: relative;*/
+			}						   
+
+		</style>
+	</head>
+	<body>
+
+		<div id="container">
+			<h1>Posicionamentos</h1>
+			<p>
+				P1 - Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in 
+			</p>
+			<p>
+				P1 - Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in 
+			</p>
+			<p>
+				P1 - Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in 
+			</p>
+			<p>
+				P1 - Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in 
+			</p>
+			<p>
+				P1 - Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in 
+			</p>
+			<p>
+				P1 - Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in 
+			</p>
+			<p>
+				P1 - Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in 
+			</p>
+			<p>
+				P1 - Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in 
+			</p>
+			<p>
+				P1 - Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in 
+			</p>
+			<p>
+				P1 - Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in 
+			</p>
+			<p>
+				P1 - Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in 
+			</p>
+			<p>
+				P1 - Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in 
+			</p>
+			<p>
+				P1 - Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in 
+			</p>
+			<p>
+				P1 - Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in 
+			</p>
+			<p>
+				P1 - Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in 
+			</p>
+			<p>
+				P1 - Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in 
+			</p>
+			<p>
+				P1 - Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in 
+			</p>
+
+			<p class="absolute">
+				P2 - There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be
+			</p>
+
+			<p class="fixed">
+				P3 - It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+			</p>
+		</div>		
+
+	</body>
+</html>
